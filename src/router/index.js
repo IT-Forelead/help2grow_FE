@@ -5,22 +5,6 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes: [
     {
-      path: "/",
-      redirect: "/dashboard",
-      component: () => import("../layouts/Default.vue"),
-      children: [
-        {
-          path: "/dashboard",
-          name: "Dashboard",
-          component: () => import("../pages/Dashboard.vue"),
-          meta: {
-            title: "Asosiy",
-            protected: true,
-          },
-        },
-      ],
-    },
-    {
       path: "/auth",
       redirect: "/auth/login",
       component: () => import("../layouts/Auth.vue"),
@@ -34,6 +18,24 @@ const router = createRouter({
           },
         },
       ],
+    },
+    {
+      path: "/",
+      name: "Home",
+      component: () => import("../pages/Home.vue"),
+      meta: {
+        title: "Home",
+        protected: false,
+      },
+    },
+    {
+      path: "/sign-in",
+      name: "Signin",
+      component: () => import("../pages/Signin.vue"),
+      meta: {
+        title: "Sign in",
+        protected: false,
+      },
     },
     {
       path: "/sign-up",
