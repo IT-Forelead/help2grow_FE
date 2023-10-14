@@ -4,6 +4,7 @@ export const useMMStore = defineStore("mm", {
   state: () => {
     return {
       junior: null,
+      taJunior: null,
       juniors: [],
       seniors: [],
     };
@@ -21,6 +22,9 @@ export const useMMStore = defineStore("mm", {
     },
     setJunior(payload) {
       this.junior = payload;
+    },
+    setTAJunior(payload) {
+      this.taJunior = payload;
     },
     clearJunior() {
       this.junior = null

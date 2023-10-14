@@ -14,6 +14,15 @@ const router = createRouter({
       },
     },
     {
+      path: "/task-assignment",
+      name: "TA",
+      component: () => import("../pages/TaskAssignment.vue"),
+      meta: {
+        title: "Task assignment",
+        protected: false,
+      },
+    },
+    {
       path: "/sign-in",
       name: "Signin",
       component: () => import("../pages/Signin.vue"),
