@@ -4,9 +4,6 @@
 
 <template>
     <div class="flex items-center justify-center w-full py-20 bg-base-200">
-        <!-- <div class="flex-shrink-0 w-full max-w-sm shadow-2xl card bg-base-100">
-            
-        </div> -->
         <div class="w-3/5 px-8 py-6 border border-solid rounded border-base-100 bg-base-100">
 
             <h1 class="mb-4 text-5xl font-bold">Sign up</h1>
