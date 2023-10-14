@@ -5,21 +5,6 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes: [
     {
-      path: "/auth",
-      redirect: "/auth/login",
-      component: () => import("../layouts/Auth.vue"),
-      children: [
-        {
-          path: "/auth/login",
-          name: "Login",
-          component: () => import("../pages/Login.vue"),
-          meta: {
-            title: "Tizimga kirish",
-          },
-        },
-      ],
-    },
-    {
       path: "/",
       name: "Home",
       component: () => import("../pages/Home.vue"),
