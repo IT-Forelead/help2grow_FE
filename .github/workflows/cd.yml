@@ -37,7 +37,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd hackathon/ui
-            docker load -i help2growfe.tar.gz
+            docker load -i hgui.tar.gz
             docker compose down
             docker compose up -d
             docker restart nginx
