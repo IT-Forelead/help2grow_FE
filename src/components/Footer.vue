@@ -11,11 +11,20 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
         <div class="container py-12 mx-auto">
             <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-6">
-                    <div class="text-3xl font-semibold text-blue-600 mb-2 uppercase">
-                        Help to grow
+                    <div class="font-semibold text-blue-600 uppercase tracking-[-.01em] -space-x-0.5">
+                        <span class="text-[2rem]">H</span>
+                        <span class="text-[2.1rem]">e</span>
+                        <span class="text-[2.2rem]">l</span>
+                        <span class="text-[2.3rem]">p</span>
+                        <span class="text-[2.4rem]">2</span>
+                        <span class="text-[2.5rem]">G</span>
+                        <span class="text-[2.6rem]">r</span>
+                        <span class="text-[2.7rem]">o</span>
+                        <span class="text-[2.8rem]">w</span>
                     </div>
                     <p class="w-2/3 text-base text-gray-600">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem esse, corrupti fuga mollitia modi spacial nostrum excepturi a corrupti recusandae ratione forelead!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem esse, corrupti fuga
+                        mollitia modi spacial nostrum excepturi a corrupti recusandae ratione forelead!
                     </p>
                 </div>
                 <div class="col-span-3">
@@ -53,19 +62,22 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                         </li>
                         <li class="flex items-center space-x-2">
                             <LinkedinIcon class="w-6 h-6 text-gray-600" />
-                            <a href="https://www.linkedin.com/company/it-forelead" target="_blank" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                            <a href="https://www.linkedin.com/company/it-forelead" target="_blank"
+                                class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
                                 @itforelead
                             </a>
                         </li>
                         <li class="flex items-center space-x-2">
                             <InstagramIcon class="w-6 h-6 text-gray-600" />
-                            <a href="https://www.instagram.com/itforelead" target="_blank" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                            <a href="https://www.instagram.com/itforelead" target="_blank"
+                                class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
                                 @itforelead
                             </a>
                         </li>
                         <li class="flex items-center space-x-2">
                             <TelegramIcon class="w-6 h-6 text-gray-600" />
-                            <a href="https://t.me/itforelead" target="_blank" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                            <a href="https://t.me/itforelead" target="_blank"
+                                class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
                                 @itforelead
                             </a>
                         </li>
@@ -78,7 +90,7 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                 <span class="text-sm text-gray-900">
                     <a href="http://it-forelead.uz" class="cursor-pointer hover:text-[#0167F3]">
                         IT-ForeLead
-                    </a> 
+                    </a>
                     © 2023. All Rights Reserved.
                 </span>
             </div>

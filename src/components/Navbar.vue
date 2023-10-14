@@ -12,8 +12,16 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
     <header class="py-4 text-gray-900 bg-white z-[99999] sticky top-0 left-0">
         <div class="flex items-center justify-between max-w-6xl mx-auto">
             <a href="/">
-                <div class="text-3xl font-semibold text-blue-600 uppercase">
-                    Help to Grow
+                <div class="font-semibold text-blue-600 uppercase tracking-[-.01em] -space-x-0.5">
+                    <span class="text-[2rem]">H</span>
+                    <span class="text-[2.1rem]">e</span>
+                    <span class="text-[2.2rem]">l</span>
+                    <span class="text-[2.3rem]">p</span>
+                    <span class="text-[2.4rem]">2</span>
+                    <span class="text-[2.5rem]">G</span>
+                    <span class="text-[2.6rem]">r</span>
+                    <span class="text-[2.7rem]">o</span>
+                    <span class="text-[2.8rem]">w</span>
                 </div>
             </a>
             <div>
