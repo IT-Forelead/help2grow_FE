@@ -1,17 +1,15 @@
 <script setup>
-
+import HeaderSection from '../components/Home/HeaderSection.vue'
+import FirstSection from '../components/Home/FirstSection.vue'
+import SecondSection from '../components/Home/SecondSection.vue'
+import ThirdSection from '../components/Home/ThirdSection.vue'
 </script>
 
 <template>
-    <div class="min-h-screen hero" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-  <div class="hero-overlay bg-opacity-60"></div>
-  <div class="text-center hero-content text-neutral-content">
-    <div class="max-w-md">
-      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button class="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
+  <HeaderSection />
+  <FirstSection />
+  <SecondSection />
+  <ThirdSection />
 </template>
+
 <style scoped></style>
