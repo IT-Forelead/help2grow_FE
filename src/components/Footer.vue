@@ -19,7 +19,9 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                     </p>
                 </div>
                 <div class="col-span-3">
-                    <h5 class="mb-6 text-lg font-medium leading-5 text-gray-600">Categories</h5>
+                    <h5 class="mb-6 text-lg font-medium leading-5 text-gray-600">
+                        Категории
+                    </h5>
                     <ul class="space-y-2">
                         <li class="text-base text-gray-600">
                             <a href="#" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
@@ -39,7 +41,9 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                     </ul>
                 </div>
                 <div class="col-span-3">
-                    <h5 class="mb-6 text-lg font-medium leading-5 text-gray-600">Contact us</h5>
+                    <h5 class="mb-6 text-lg font-medium leading-5 text-gray-600">
+                        Контакты
+                    </h5>
                     <ul class="space-y-2">
                         <li class="flex items-center space-x-2">
                             <PhoneIcon class="w-6 h-6 text-gray-600" />

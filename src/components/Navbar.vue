@@ -1,32 +1,63 @@
 <script setup>
-import UserIcon from '../assets/icons/UserIcon.vue'
+import TranslateIcon from '../assets/icons/TranslateIcon.vue'
 
 </script>
 
 <template>
-    <header class="w-full bg-base-100">
-        <div class="container mx-auto navbar">
-            <div class="flex-1">
-                <a class="text-xl normal-case btn btn-ghost">Help2Grow</a>
-            </div>
-            <div class="flex-none gap-2">
-                <div class="dropdown dropdown-end">
-                    <label tabindex="0" class="btn btn-ghost btn-circle">
-                        <div class="flex items-center justify-center w-10 h-10 rounded-full">
-                            <UserIcon class="w-8 h-8" />
-                        </div>
-                    </label>
-                    <ul tabindex="0"
-                        class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
-                        <li>
-                            <a>
-                                Profile
-                            </a>
-                        </li>
-                        <li><a>Settings</a></li>
-                        <li><a>Logout</a></li>
-                    </ul>
+    <div class="relative z-10 px-4 py-2 text-center text-white bg-cyan-950">
+        <h4 class="text-sm font-medium leading-4">
+            Проект «Help to Grow» создан для конкурса President Tech Award
+        </h4>
+    </div>
+    <header class="py-4 text-gray-900 bg-white z-[99999] sticky top-0 left-0">
+        <div class="flex items-center justify-between max-w-6xl mx-auto">
+            <a href="/">
+                <div class="text-3xl font-semibold text-blue-600 uppercase">
+                    Help to Grow
                 </div>
+            </a>
+            <div>
+                <ul class="flex items-center justify-center space-x-1">
+                    <li>
+                        <a href="/"
+                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
+                            Asosiy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
+                            Link 1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
+                            Link 2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
+                            Link 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center justify-end space-x-2">
+
+                <div class="flex items-center px-4 py-2 space-x-1 border border-white border-solid rounded-lg cursor-pointer hover:bg-black/5 hover:border-gray-200">
+                    <TranslateIcon class="w-5 h-5" />
+                    <span
+                        class="text-base font-normal text-gray-900 whitespace-nowrap">
+                        Русский
+                    </span>
+                </div>
+
+                <a href="/sign-in"
+                    class="px-4 py-2 text-base font-medium text-gray-900 border border-gray-200 border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5">
+                    Войти
+                </a>
             </div>
         </div>
     </header>
