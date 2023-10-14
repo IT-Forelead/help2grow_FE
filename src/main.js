@@ -1,8 +1,11 @@
-import './style.css'
+import "@vueform/multiselect/themes/default.css";
+import "./style.css";
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import router from "./router";
+import piniaPluginPersistedState from "pinia-plugin-persistedstate";
 const pinia = createPinia();
+pinia.use(piniaPluginPersistedState);
 import App from "./App.vue";
 
 const app = createApp(App);

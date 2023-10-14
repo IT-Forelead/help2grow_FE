@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueform/multiselect": "^2.6.4",
+    "flowbite": "^1.8.1",
     "maska": "^2.1.10",
     "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
     "vue": "^3.3.4",
+    "vue-multiselect": "^3.0.0-beta.2",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
