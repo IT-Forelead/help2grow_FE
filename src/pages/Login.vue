@@ -1,5 +1,5 @@
-<script setup lang="ts">
-
+<script setup>
+import { vMaska } from "maska";
 </script>
 
 <template>
@@ -9,12 +9,13 @@
         <form class="w-full px-8 space-y-6 sm:w-[480px]">
           <h1 class="text-4xl font-medium">Xush kelibsiz</h1>
           <div>
-            <input type="text" placeholder="E-mail" class="w-full px-4 py-3 border-2 rounded-md" required />
+            <input v-maska data-maska="+998(##) ###-##-##" data-maska-tokens="998" type="text" placeholder="Telefon" class="w-full px-4 py-3 border-2 rounded-md" required />
           </div>
           <div>
             <input type="password" placeholder="Parol" class="w-full px-4 py-3 border-2 rounded-md" required />
           </div>
-          <button type="submit" class="w-full px-4 py-3 text-white rounded-md bg-primary">
+          <button type="submit" class="w-full btn btn-primary">
+            Tizimga kirish
           </button>
         </form>
       </div>
