@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  help2growfe:
+    restart: always
+    image: help2growfe:latest
+    hostname: help2growfe
+    container_name: help2growfe
+    networks:
+      - external-net
+    ports:
+      - "4200:80"
+networks:
+  external-net:
+    name: external-net
+    external: true
