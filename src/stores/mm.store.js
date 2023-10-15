@@ -7,6 +7,7 @@ export const useMMStore = defineStore("mm", {
       taJunior: null,
       juniors: [],
       seniors: [],
+      fseniors: [],
     };
   },
   actions: {
@@ -28,6 +29,12 @@ export const useMMStore = defineStore("mm", {
     },
     clearJunior() {
       this.junior = null
+    },
+    clearfSeniors() {
+      this.fseniors = []
+    },
+    findSeniors(data) {
+      this.fseniors.push(data)
     }
   },
   persist: true,
