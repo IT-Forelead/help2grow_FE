@@ -14,6 +14,15 @@ const router = createRouter({
       },
     },
     {
+      path: "/mentor-matching",
+      name: "Mentor matching",
+      component: () => import("../pages/MentorMatching.vue"),
+      meta: {
+        title: "Mentor matching",
+        protected: false,
+      },
+    },
+    {
       path: "/task-assignment",
       name: "TA",
       component: () => import("../pages/TaskAssignment.vue"),
