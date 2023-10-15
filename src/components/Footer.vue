@@ -32,13 +32,13 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                     </h5>
                     <ul class="space-y-2">
                         <li class="text-base text-gray-600">
-                            <a href="#" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
-                                Link 1
+                            <a href="/mentor-matching" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                                Подбор наставников
                             </a>
                         </li>
                         <li class="text-base text-gray-600">
-                            <a href="#" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
-                                Link 2
+                            <a href="/task-assignment" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                                Назначение задачи
                             </a>
                         </li>
                         <li class="text-base text-gray-600">

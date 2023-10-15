@@ -26,22 +26,22 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
             </a>
             <div>
                 <ul class="flex items-center justify-center space-x-1">
-                    <li>
+                    <!-- <li>
                         <a href="/"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
                             Главная
                         </a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#"
+                        <a href="/mentor-matching"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Link 1
+                            Подбор наставников
                         </a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="/task-assignment"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Link 2
+                            Назначение задачи
                         </a>
                     </li>
                     <li>

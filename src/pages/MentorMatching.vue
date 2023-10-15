@@ -17,7 +17,7 @@ const matchMentor = () => {
 </script>
 
 <template>
-  <div class="grid grid-cols-3 p-5 m-3 space-x-5 border shadow-lg rounded-xl">
+  <div class="grid grid-cols-3 px-8 space-x-5 mt-5">
     <div class="space-y-10">
       <div class="p-3 border shadow-lg rounded-xl">
         <SeniorCard />
