@@ -41,11 +41,11 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                                 Назначение задачи
                             </a>
                         </li>
-                        <li class="text-base text-gray-600">
+                        <!-- <li class="text-base text-gray-600">
                             <a href="#" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
                                 Link 3
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="col-span-3">

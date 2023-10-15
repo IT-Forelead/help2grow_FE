@@ -44,12 +44,12 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
                             Назначение задачи
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
                             Link 3
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="flex items-center justify-end space-x-2">
