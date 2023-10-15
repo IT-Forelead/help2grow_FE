@@ -92,7 +92,7 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
 <style scoped>
 .bg-gradient {
     background-color: rgba(210, 207, 216, 0.3);
-    -webkit-mask-image: url(/images/waves.svg);
+    -webkit-mask-image: url(/waves.svg);
     -webkit-mask-size: 64px 32px;
     -webkit-mask-repeat: repeat;
 }
