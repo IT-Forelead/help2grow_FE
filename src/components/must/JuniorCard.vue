@@ -45,7 +45,7 @@ const addToSkillSelected = () => {
 }
 
 const addJunior = () => {
-  if (name.value && selected.value.length > 0) {
+  if (name.value) {
     useMMStore().setJunior({
       name: name.value,
       skills: [...selected.value, ...customSkills.value]
