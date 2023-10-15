@@ -11,7 +11,9 @@ const fseniors = computed(() => useMMStore().fseniors)
 const junior = computed(() => useMMStore().junior)
 
 const isMatching = ref(false)
+const isMatchClicked = ref(false)
 const matchMentor = () => {
+  isMatchClicked.value = true
   isMatching.value = true
   seniors.value?.map(async (s) => {
     await axios.post('http://89.223.122.5:5600/ai/skills-match',
@@ -35,12 +37,13 @@ const matchMentor = () => {
 const clear = () => {
   useMMStore().clearJunior()
   useMMStore().clearfSeniors()
+  isMatchClicked.value = false
 }
 
 </script>
 
 <template>
-  <div class="grid grid-cols-3 px-8 space-x-5 mt-5">
+  <div class="grid grid-cols-3 px-8 mt-5 space-x-5">
     <div class="space-y-10">
       <div class="p-3 border shadow-lg rounded-xl">
         <SeniorCard />
@@ -84,7 +87,7 @@ const clear = () => {
         <JuniorCard v-else />
       </div>
     </div>
-    <div v-if="fseniors?.length > 0" class="grid grid-cols-2 col-span-2 gap-3">
+    <div v-if="isMatchClicked" class="grid grid-cols-2 col-span-2 gap-3">
       <div v-for="(s, idx) in fseniors" :key="idx" class="p-3 border shadow-lg rounded-xl">
         <div class="flex items-center justify-between mb-2">
           <div class="p-2 bg-gray-100 rounded-full">
