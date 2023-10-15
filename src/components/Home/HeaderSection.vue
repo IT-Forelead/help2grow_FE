@@ -11,15 +11,12 @@
                     IT-ForeLead LLC.
                 </p>
             </div>
-            <h1 class="text-7xl leading-[4.5rem] tracking-tight font-semibold mb-4">
+            <h1 class="text-5xl tracking-tight font-semibold mb-4">
                 <span class="text-blue-600">Help to grow</span>
-                -<br>
-                <p class="text-6xl">Lorem ipsum dolor sit.</p>
+                <span class="text-4xl">- это новаторская платформа, призванная способствовать обмену знаниями и наставничеству в сообществе программистов.</span>
             </h1>
             <p size="500" class="text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis qui eveniet amet quasi est
-                consequatur beatae fugiat omnis nobis ipsum quibusdam unde consectetur sint nesciunt ullam rem inventore
-                placeat dicta deleniti, accusamus iusto mollitia quaerat.
+                Это динамичная экосистема, где младшие разработчики могут учиться у опытных профессионалов, а старшие могут предлагать обзоры кода и получать вознаграждение. Наша платформа также включает в себя передовые алгоритмы сопоставления ИИ для объединения наставников (старших разработчиков) с подопечными на основе их предпочтительных стеков программирования.
             </p>
         </div>
         <div class="flex justify-center">

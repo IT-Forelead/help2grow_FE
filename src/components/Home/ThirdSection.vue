@@ -11,16 +11,16 @@ import RectangleSvg from '../../assets/icons/RectangleSvg.vue'
                     <div class="flex items-center max-w-screen-sm mb-6 space-x-2">
                         <div class="w-2 h-4 inline-block rounded-[1px] bg-gradient-to-b from-[#4575cd] to-[#7ea7e9]"></div>
                         <p class="text-base font-semibold leading-5 text-gray-800 -tracking-wide">
-                            Third section
+                            Растем вместе
                         </p>
                     </div>
-                    <h2 class="text-gray-900 text-6xl leading-[4.5rem] tracking-tight font-semibold mb-4">
-                        Lorem ipsum dolor sit.
+                    <h2 class="text-gray-900 text-5xl leading-[4.5rem] tracking-tight font-semibold mb-4">
+                        Это больше, чем просто платформа наставничества
                     </h2>
                     <p class="text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quis, nobis odit pariatur adipisci fuga sed. Eius nemo aperiam aliquid? Lorem ipsum dolor sit amet.
+                        Это динамичная экосистема, в которой взращивается будущее кодирования и воплощаются в жизнь инновационные проекты. Независимо от того, являетесь ли вы младшим разработчиком, которому нужен совет, или старшим разработчиком, желающим поделиться своим опытом и заработать на нем, «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
                     </p>
-                    <div class="grid grid-cols-2 gap-4 mt-8">
+                    <!-- <div class="grid grid-cols-2 gap-4 mt-8">
                         <div>
                             <h2 class="mb-2 text-lg font-semibold leading-6 tracking-tight text-gray-900">
                                 Lorem ipsum dolor.
@@ -37,7 +37,7 @@ import RectangleSvg from '../../assets/icons/RectangleSvg.vue'
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos adipisci recusandae ratione reiciendis! Incidunt beatae cumque libero et possimus assumenda!
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-span-4 col-start-9 overflow-hidden h-96">
                     <RectangleSvg />

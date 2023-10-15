@@ -23,8 +23,7 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                         <span class="text-[2.8rem]">w</span>
                     </div>
                     <p class="w-2/3 text-base text-gray-600">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem esse, corrupti fuga
-                        mollitia modi spacial nostrum excepturi a corrupti recusandae ratione forelead!
+                        «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
                     </p>
                 </div>
                 <div class="col-span-3">
