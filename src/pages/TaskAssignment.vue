@@ -21,8 +21,7 @@ const lorem = new LoremIpsum({
 
 </script>
 <template>
-  <div class="p-3 m-3 border rounded-lg">
-    <h1>Junior TA</h1>
+  <div class="p-3 m-3">
     <div class="grid grid-cols-3 gap-5">
       <div class="p-3 border rounded-lg">
         <JuniorTACard :mode="'assign'" />
