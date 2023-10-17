@@ -39,13 +39,13 @@ const customSkill = ref(null)
 
 const addToSkillSelected = () => {
   if (customSkill.value) {
-    customSkills.value.push(customSkill.value)
+    customSkills.value.push(...customSkill.value?.split(','))
     customSkill.value = ''
   }
 }
 
 const addJunior = () => {
-  if (name.value) {
+  if (name.value && (selected.value.length > 0 || customSkills.value.length > 0)) {
     useMMStore().setJunior({
       name: name.value,
       skills: [...selected.value, ...customSkills.value]
@@ -80,6 +80,7 @@ const addJunior = () => {
       <button @click="addToSkillSelected()"
         class="focus:outline-none text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:focus:ring-green-900">+</button>
     </div>
+    <p class="mb-2 text-gray-600">Hint: You can add several skills with comma (,). <br> Etc: Scala, js,...</p>
     <button @click="addJunior()"
       class="w-full focus:outline-none text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900">Add Junior</button>
   </div>

@@ -6,7 +6,7 @@ import JuniorCard from '../components/must/JuniorCard.vue';
 import UserIcon from '../assets/icons/UserIcon.vue'
 import axios from 'axios'
 
-const seniors = computed(() => useMMStore().seniors)
+const seniors = computed(() => useMMStore().seniors?.reverse())
 const fseniors = computed(() => useMMStore().fseniors)
 const junior = computed(() => useMMStore().junior)
 
@@ -44,7 +44,7 @@ const clear = () => {
 
 <template>
   <div class="grid grid-cols-3 px-8 mt-5 space-x-5">
-    <div class="space-y-10">
+    <div class="space-y-3">
       <div class="p-3 border shadow-lg rounded-xl">
         <SeniorCard />
       </div>
