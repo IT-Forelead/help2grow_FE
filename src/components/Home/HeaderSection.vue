@@ -1,4 +1,5 @@
 <script setup>
+import GithubIcon from '../../assets/icons/GithubIcon.vue'
 
 </script>
 
@@ -13,11 +14,33 @@
             </div>
             <h1 class="mb-4 text-3xl font-semibold tracking-tight md:text-5xl">
                 <span class="text-blue-600">Help to grow</span>
-                <span class="text-2xl md:text-4xl">- это новаторская платформа, призванная способствовать обмену знаниями и наставничеству в сообществе программистов.</span>
+                <span class="text-2xl text-black md:text-4xl">- это новаторская платформа, призванная способствовать обмену знаниями и
+                    наставничеству в сообществе программистов.</span>
             </h1>
             <p size="500" class="text-xl md:text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
-                Это динамичная экосистема, где младшие разработчики могут учиться у опытных профессионалов, а старшие могут предлагать обзоры кода и получать вознаграждение. Наша платформа также включает в себя передовые алгоритмы сопоставления ИИ для объединения наставников (старших разработчиков) с подопечными на основе их предпочтительных стеков программирования.
+                Это динамичная экосистема, где младшие разработчики могут учиться у опытных профессионалов, а старшие могут
+                предлагать обзоры кода и получать вознаграждение. Наша платформа также включает в себя передовые алгоритмы
+                сопоставления ИИ для объединения наставников (старших разработчиков) с подопечными на основе их
+                предпочтительных стеков программирования.
             </p>
+            <div class="flex flex-col gap-3 mt-4 md:flex-row">
+                <a href=""
+                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 sh bg-blue-950 btn-shadow h-9 whitespace-nowrap">
+                    <GithubIcon class="w-6 h-6 mr-1" />
+                    Repository for Frontend
+                </a>
+                <a href=""
+                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 sh bg-blue-950 btn-shadow h-9 whitespace-nowrap">
+                    <GithubIcon class="w-6 h-6 mr-1" />
+                    Repository for Backend
+                </a>
+                <a href=""
+                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 sh bg-blue-950 btn-shadow h-9 whitespace-nowrap">
+                    <GithubIcon class="w-6 h-6 mr-1" />
+                    Repository for AI
+                </a>
+
+            </div>
         </div>
         <div class="flex justify-center">
             <div class="relative z-10 overflow-hidden w-[342px] h-[184px] md:w-[960px] md:h-[540px] rounded-lg">
@@ -39,5 +62,24 @@
     transform: translate3d(-50%, -50%, 0px);
     -webkit-mask-image: radial-gradient(farthest-side at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
     background-image: linear-gradient(90deg, rgba(126, 167, 233, 1), rgba(124, 239, 183), 1);
+}
+
+/* .btn-shadow {
+    box-shadow: 0 0 0 1px rgba(17, 26, 74, 1), 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s, border-color 0.2s ease 0s;
+} */
+/* .btn-effect::after {
+    content: "";
+    background-image: var(--btn-gradient,linear-gradient(180deg,rgb(255,255,255),rgba(255,255,255,0) 100%));
+    display: block;
+    border-radius: 0.5rem;
+    opacity: 0.1;
+    position: absolute;
+    inset: 0px;
+    transition: opacity 0.5s ease 0s;
+} */
+
+.sh {
+  box-shadow: 0 4px 4px rgba(8, 8, 8, .08), 0 1px 2px rgba(8, 8, 8, .2), inset 0 6px 12px rgba(255, 255, 255, .12), inset 0 1px 1px rgba(255, 255, 255, .2);
 }
 </style>
