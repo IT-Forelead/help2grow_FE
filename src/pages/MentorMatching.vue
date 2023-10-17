@@ -88,7 +88,7 @@ const clear = () => {
       </div>
     </div>
     <div v-if="isMatchClicked" class="grid grid-cols-2 col-span-2 gap-3">
-      <div v-for="(s, idx) in fseniors" :key="idx" class="p-3 border shadow-lg rounded-xl">
+      <div v-for="(s, idx) in fseniors" :key="idx" class="p-3 border border-green-500 shadow-lg rounded-xl">
         <div class="flex items-center justify-between mb-2">
           <div class="p-2 bg-gray-100 rounded-full">
             <UserIcon class="w-10 h-10" />
@@ -115,7 +115,22 @@ const clear = () => {
             </span>
           </div>
         </div>
-        <pre>{{ s }}</pre>
+        <div class="p-1 px-2 my-1 bg-green-100 border border-green-600 rounded-lg">
+          <p>
+            <span class="font-medium">Matched skill(s): </span>
+            <span v-for="(sk, idx) in s?.MATCH_SKILL" :key="idx" class="uppercase bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">
+              {{ sk }}
+            </span>
+          </p>
+          <p>
+            <span class="font-medium">Matched skill(s) similarity: </span> 
+            <span class="text-xl font-bold">{{ (s?.MATCH_SKILL_SIMILARITY * 100)?.toFixed(2) }}</span>%
+          </p>
+          <p>
+            <span class="font-medium">Similarity: </span>
+            <span class="text-xl font-bold">{{ (s?.SIMILARITY * 100)?.toFixed(2) }}</span>%
+          </p>
+        </div>
       </div>
     </div>
     <div v-else class="grid grid-cols-2 col-span-2 gap-3">
