@@ -11,33 +11,35 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
         <div class="container py-12 mx-auto">
             <div class="grid grid-cols-2 gap-6 md:gap-12 md:grid-cols-4">
                 <div class="col-span-2 px-6">
-                    <div class="font-semibold text-blue-600 uppercase tracking-[-.01em] -space-x-0.5">
-                        <span class="text-[2rem]">H</span>
-                        <span class="text-[2.1rem]">e</span>
-                        <span class="text-[2.2rem]">l</span>
-                        <span class="text-[2.3rem]">p</span>
-                        <span class="text-[2.4rem]">2</span>
-                        <span class="text-[2.5rem]">G</span>
-                        <span class="text-[2.6rem]">r</span>
-                        <span class="text-[2.7rem]">o</span>
-                        <span class="text-[2.8rem]">w</span>
+                    <div class="font-semibold text-blue-600 uppercase tracking-[-.01em] mb-2 md:mb-3">
+                        <span class="text-[1rem]">H</span>
+                        <span class="text-[1.1rem]">e</span>
+                        <span class="text-[1.2rem]">l</span>
+                        <span class="text-[1.3rem]">p</span>
+                        <span class="text-[1.4rem]">2</span>
+                        <span class="text-[1.5rem]">G</span>
+                        <span class="text-[1.6rem]">r</span>
+                        <span class="text-[1.7rem]">o</span>
+                        <span class="text-[1.8rem]">w</span>
                     </div>
                     <p class="w-full text-base text-gray-600 md:w-2/3">
                         «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
                     </p>
                 </div>
                 <div class="col-span-2 px-6 md:col-span-1">
-                    <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-6">
+                    <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-5">
                         Категории
                     </h5>
                     <ul class="space-y-2">
                         <li class="text-base text-gray-600">
-                            <a href="/mentor-matching" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                            <a href="/mentor-matching"
+                                class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
                                 Подбор наставников
                             </a>
                         </li>
                         <li class="text-base text-gray-600">
-                            <a href="/task-assignment" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                            <a href="/task-assignment"
+                                class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
                                 Назначение задачи
                             </a>
                         </li>
@@ -49,7 +51,7 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                     </ul>
                 </div>
                 <div class="col-span-2 px-6 md:col-span-1">
-                    <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-6">
+                    <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-5">
                         Контакты
                     </h5>
                     <ul class="space-y-2">

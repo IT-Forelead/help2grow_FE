@@ -9,19 +9,19 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
             Проект «Help to Grow» создан для конкурса President Tech Award
         </h4>
     </div>
-    <header class="py-4 text-gray-900 bg-white z-[99999] sticky top-0 left-0">
+    <header class="py-2 text-gray-900 bg-white z-[99999] sticky top-0 left-0">
         <div class="flex items-center justify-between max-w-6xl mx-auto">
             <a href="/">
-                <div class="font-semibold text-blue-600 uppercase tracking-[-.01em] -space-x-0.5">
-                    <span class="text-[2rem]">H</span>
-                    <span class="text-[2.1rem]">e</span>
-                    <span class="text-[2.2rem]">l</span>
-                    <span class="text-[2.3rem]">p</span>
-                    <span class="text-[2.4rem]">2</span>
-                    <span class="text-[2.5rem]">G</span>
-                    <span class="text-[2.6rem]">r</span>
-                    <span class="text-[2.7rem]">o</span>
-                    <span class="text-[2.8rem]">w</span>
+                <div class="font-semibold text-blue-600 uppercase tracking-[-.01em]">
+                    <span class="text-[1rem]">H</span>
+                    <span class="text-[1.1rem]">e</span>
+                    <span class="text-[1.2rem]">l</span>
+                    <span class="text-[1.3rem]">p</span>
+                    <span class="text-[1.4rem]">2</span>
+                    <span class="text-[1.5rem]">G</span>
+                    <span class="text-[1.6rem]">r</span>
+                    <span class="text-[1.7rem]">o</span>
+                    <span class="text-[1.8rem]">w</span>
                 </div>
             </a>
             <div>
