@@ -5,22 +5,22 @@
 <template>
     <section id="header" class="relative w-full pt-14">
         <div class="relative z-10 max-w-6xl px-6 mx-auto mb-12">
-            <div class="flex items-center max-w-screen-sm mb-8 space-x-2">
+            <div class="flex items-center max-w-screen-sm mb-4 space-x-2 md:mb-8">
                 <div class="w-2 h-4 inline-block rounded-[1px] bg-gradient-to-b from-[#4575cd] to-[#7ea7e9]"></div>
                 <p class="text-base font-semibold leading-5 text-gray-800 -tracking-wide">
                     IT-ForeLead LLC.
                 </p>
             </div>
-            <h1 class="text-5xl tracking-tight font-semibold mb-4">
+            <h1 class="mb-4 text-3xl font-semibold tracking-tight md:text-5xl">
                 <span class="text-blue-600">Help to grow</span>
-                <span class="text-4xl">- это новаторская платформа, призванная способствовать обмену знаниями и наставничеству в сообществе программистов.</span>
+                <span class="text-2xl md:text-4xl">- это новаторская платформа, призванная способствовать обмену знаниями и наставничеству в сообществе программистов.</span>
             </h1>
-            <p size="500" class="text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
+            <p size="500" class="text-xl md:text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
                 Это динамичная экосистема, где младшие разработчики могут учиться у опытных профессионалов, а старшие могут предлагать обзоры кода и получать вознаграждение. Наша платформа также включает в себя передовые алгоритмы сопоставления ИИ для объединения наставников (старших разработчиков) с подопечными на основе их предпочтительных стеков программирования.
             </p>
         </div>
         <div class="flex justify-center">
-            <div class="relative z-10 overflow-hidden w-[960px] h-[540px] rounded-lg">
+            <div class="relative z-10 overflow-hidden w-[342px] h-[184px] md:w-[960px] md:h-[540px] rounded-lg">
                 <img src="/header-image.jpg" class="w-full rounded-lg" alt="IT-Forelead">
             </div>
         </div>

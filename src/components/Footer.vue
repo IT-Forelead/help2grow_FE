@@ -7,10 +7,10 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
 </script>
 
 <template>
-    <footer class="mt-24 bg-white">
+    <footer class="mt-0 bg-white md:mt-24">
         <div class="container py-12 mx-auto">
-            <div class="grid grid-cols-12 gap-4">
-                <div class="col-span-6">
+            <div class="grid grid-cols-2 gap-6 md:gap-12 md:grid-cols-4">
+                <div class="col-span-2 px-6">
                     <div class="font-semibold text-blue-600 uppercase tracking-[-.01em] -space-x-0.5">
                         <span class="text-[2rem]">H</span>
                         <span class="text-[2.1rem]">e</span>
@@ -22,12 +22,12 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                         <span class="text-[2.7rem]">o</span>
                         <span class="text-[2.8rem]">w</span>
                     </div>
-                    <p class="w-2/3 text-base text-gray-600">
+                    <p class="w-full text-base text-gray-600 md:w-2/3">
                         «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
                     </p>
                 </div>
-                <div class="col-span-3">
-                    <h5 class="mb-6 text-lg font-medium leading-5 text-gray-600">
+                <div class="col-span-2 px-6 md:col-span-1">
+                    <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-6">
                         Категории
                     </h5>
                     <ul class="space-y-2">
@@ -48,8 +48,8 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                         </li> -->
                     </ul>
                 </div>
-                <div class="col-span-3">
-                    <h5 class="mb-6 text-lg font-medium leading-5 text-gray-600">
+                <div class="col-span-2 px-6 md:col-span-1">
+                    <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-6">
                         Контакты
                     </h5>
                     <ul class="space-y-2">

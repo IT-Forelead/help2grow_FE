@@ -4,20 +4,20 @@ import RectangleSvg from '../../assets/icons/RectangleSvg.vue'
 </script>
 
 <template>
-    <section class="overflow-hidden pt-28">
+    <section class="overflow-hidden pt-14 md:pt-28">
         <div class="max-w-6xl px-6 mx-auto mb-12">
             <div class="grid grid-cols-12 gap-8">
-                <div class="col-span-8">
+                <div class="col-span-12 md:col-span-8">
                     <div class="flex items-center max-w-screen-sm mb-6 space-x-2">
                         <div class="w-2 h-4 inline-block rounded-[1px] bg-gradient-to-b from-[#4575cd] to-[#7ea7e9]"></div>
                         <p class="text-base font-semibold leading-5 text-gray-800 -tracking-wide">
                             Растем вместе
                         </p>
                     </div>
-                    <h2 class="text-gray-900 text-5xl leading-[4.5rem] tracking-tight font-semibold mb-4">
+                    <h2 class="text-gray-900 text-3xl md:text-5xl leading-10 md:leading-[4.5rem] tracking-tight font-semibold mb-4">
                         Это больше, чем просто платформа наставничества
                     </h2>
-                    <p class="text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
+                    <p class="text-lg md:text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
                         Это динамичная экосистема, в которой взращивается будущее кодирования и воплощаются в жизнь инновационные проекты. Независимо от того, являетесь ли вы младшим разработчиком, которому нужен совет, или старшим разработчиком, желающим поделиться своим опытом и заработать на нем, «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
                     </p>
                     <!-- <div class="grid grid-cols-2 gap-4 mt-8">
@@ -39,7 +39,7 @@ import RectangleSvg from '../../assets/icons/RectangleSvg.vue'
                         </div>
                     </div> -->
                 </div>
-                <div class="col-span-4 col-start-9 overflow-hidden h-96">
+                <div class="h-48 col-span-12 overflow-hidden md:col-start-9 md:col-span-4 md:h-96">
                     <RectangleSvg />
                 </div>
             </div>

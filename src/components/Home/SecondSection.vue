@@ -4,12 +4,12 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
 </script>
 
 <template>
-    <section class="pt-28">
+    <section class="pt-14 md:pt-28">
         <div class="max-w-6xl px-6 mx-auto relative z-[3]">
-            <div class="text-gray-900 font-semibold text-4xl leading-10 -tracking-[0.01em] max-w-3xl mb-12">
+            <div class="text-gray-900 font-semibold text-4xl leading-10 -tracking-[0.01em] max-w-3xl mb-6 md:mb-12">
                 Ключевая особенность
             </div>
-            <div class="grid grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3">
                 <div
                     class="bg-white/70 rounded-lg min-h-[250px] p-8 border border-solid border-gray-200 shadow shadow-black/5 cursor-pointer hover:bg-white hover:shadow-xl duration-700 hover:shadow-black/5">
                     <div class="mb-6">
