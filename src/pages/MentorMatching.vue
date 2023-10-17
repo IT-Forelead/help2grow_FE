@@ -87,7 +87,7 @@ const clear = () => {
         <JuniorCard v-else />
       </div>
     </div>
-    <div v-if="isMatchClicked" class="grid grid-cols-2 col-span-2 gap-3">
+    <div v-if="isMatchClicked" class="grid grid-cols-2 col-span-2 gap-3 max-h-[90vh] overflow-auto px-5">
       <div v-for="(s, idx) in fseniors" :key="idx" class="p-3 border border-green-500 shadow-lg rounded-xl">
         <div class="flex items-center justify-between mb-2">
           <div class="p-2 bg-gray-100 rounded-full">
@@ -133,7 +133,7 @@ const clear = () => {
         </div>
       </div>
     </div>
-    <div v-else class="grid grid-cols-2 col-span-2 gap-3">
+    <div v-else class="grid grid-cols-2 col-span-2 gap-3 max-h-[95vh] overflow-auto px-5">
       <div v-for="(s, idx) in seniors" :key="idx" class="p-3 border shadow-lg rounded-xl">
         <div class="flex items-center justify-between mb-2">
           <div class="p-2 bg-gray-100 rounded-full">
