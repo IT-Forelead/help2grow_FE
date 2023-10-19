@@ -147,13 +147,13 @@ const clear = () => {
           </div>
         </div>
         <div class="mb-2 text-base text-gray-900">Developer's skills</div>
-        <div class="flex flex-wrap text-sm">
+        <div class="flex flex-wrap gap-2 text-sm">
           <div v-for="(skill, idx) in s?.skills" class="capitalize">
             <span v-if="idx % 2 === 0"
               class="bg-blue-100 text-blue-800 text-base font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap">
               {{ skill }}
             </span>
-            <span v-else class="bg-red-100 text-red-800 text-base font-medium px-2.5 py-0.5 rounded-full">
+            <span v-else class="bg-red-100 text-red-800 text-base font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap">
               {{ skill }}
             </span>
           </div>
