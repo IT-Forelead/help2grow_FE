@@ -39,6 +39,12 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
                         </a>
                     </li>
                     <li>
+                        <a href="/tasks"
+                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
+                            Категоризация задач
+                        </a>
+                    </li>
+                    <li>
                         <a href="/task-assignment"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
                             Назначение задачи
@@ -54,10 +60,10 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
             </div>
             <div class="flex items-center justify-end space-x-2">
 
-                <div class="flex items-center px-4 py-2 space-x-1 border border-white border-solid rounded-lg cursor-pointer hover:bg-black/5 hover:border-gray-200">
+                <div
+                    class="flex items-center px-4 py-2 space-x-1 border border-white border-solid rounded-lg cursor-pointer hover:bg-black/5 hover:border-gray-200">
                     <TranslateIcon class="w-5 h-5" />
-                    <span
-                        class="text-base font-normal text-gray-900 whitespace-nowrap">
+                    <span class="text-base font-normal text-gray-900 whitespace-nowrap">
                         Русский
                     </span>
                 </div>

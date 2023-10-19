@@ -30,6 +30,15 @@ const router = createRouter({
         title: "Task assignment",
         protected: false,
       },
+    },    
+    {
+      path: "/tasks",
+      name: "TC",
+      component: () => import("../pages/Tasks.vue"),
+      meta: {
+        title: "Categorization of tasks",
+        protected: false,
+      },
     },
     {
       path: "/sign-in",

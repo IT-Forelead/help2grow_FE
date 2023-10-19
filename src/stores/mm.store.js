@@ -8,6 +8,8 @@ export const useMMStore = defineStore("mm", {
       juniors: [],
       seniors: [],
       fseniors: [],
+      tasks: [],
+      selectedTask: null,
     };
   },
   actions: {
@@ -15,6 +17,20 @@ export const useMMStore = defineStore("mm", {
       if (!this.seniors.includes(payload)) {
         this.seniors.push(payload);
       }
+    },
+    setTask(payload) {
+      if (!this.tasks.includes(payload)) {
+        this.tasks.push(payload);
+      }
+    },
+    updateTask(payload) {
+      this.tasks = [
+        ...this.tasks?.filter((t) => t?.id !== payload?.id),
+        payload,
+      ];
+    },
+    setSelectedTask(payload) {
+      this.selectedTask = payload;
     },
     setJuniors(payload) {
       if (!this.juniors.includes(payload)) {
@@ -28,14 +44,14 @@ export const useMMStore = defineStore("mm", {
       this.taJunior = payload;
     },
     clearJunior() {
-      this.junior = null
+      this.junior = null;
     },
     clearfSeniors() {
-      this.fseniors = []
+      this.fseniors = [];
     },
     findSeniors(data) {
-      this.fseniors.push(data)
-    }
+      this.fseniors.push(data);
+    },
   },
   persist: true,
 });
