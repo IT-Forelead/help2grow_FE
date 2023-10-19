@@ -2,6 +2,8 @@
 import { reactive, ref } from 'vue'
 import SpinnersRingResizeIcon from '../assets/icons/SpinnersRingResizeIcon.vue'
 
+const isLoading = ref(false)
+
 const submitForm = reactive({
     email: '',
     password: ''
@@ -21,7 +23,7 @@ const clearForm = () => {
                 <div class="flex items-center justify-center space-x-2">
                     <img src="/logo.png" alt="logo" class="w-12" />
                     <div class="text-2xl font-bold leading-none text-black whitespace-nowrap">
-                        Help to Grow Ideas
+                        Help to Grow
                     </div>
                 </div>
             </router-link>
