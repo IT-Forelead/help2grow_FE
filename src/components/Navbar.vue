@@ -6,7 +6,7 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
 <template>
     <div class="relative z-10 px-4 py-2 text-center text-white bg-cyan-950">
         <h4 class="text-sm font-medium leading-4">
-            Проект «Help to Grow» создан для конкурса President Tech Award
+            Project "Help to Grow" for the President Tech Award contest
         </h4>
     </div>
     <header class="py-2 text-gray-900 bg-white z-[99999] sticky top-0 left-0">
@@ -29,19 +29,19 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
                     <li>
                         <router-link to="/mentor-matching"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Подбор наставников
+                            Mentor matching
                         </router-link>
                     </li>
                     <li>
                         <router-link to="/tasks"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Категоризация задач
+                            Categorization of tasks
                         </router-link>
                     </li>
                     <li>
                         <router-link to="/task-assignment"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Назначение задачи
+                            Task assignment
                         </router-link>
                     </li>
                 </ul>
@@ -52,13 +52,13 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
                     class="flex items-center px-4 py-2 space-x-1 border border-white border-solid rounded-lg cursor-pointer hover:bg-black/5 hover:border-gray-200">
                     <TranslateIcon class="w-5 h-5" />
                     <span class="text-base font-normal text-gray-900 whitespace-nowrap">
-                        Русский
+                        English
                     </span>
                 </div>
 
                 <a href="/sign-in"
                     class="px-4 py-2 text-base font-medium text-gray-900 border border-gray-200 border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5">
-                    Войти
+                    Sign in
                 </a>
             </div>
         </div>

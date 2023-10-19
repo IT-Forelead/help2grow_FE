@@ -10,12 +10,11 @@ import CaretRightIcon from '../../assets/icons/CaretRightIcon.vue'
             class="relative px-8 py-16 mx-auto overflow-hidden text-white z-[6] bg-blue-950 max-w-7xl rounded-2xl md:px-24 backround">
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
                 <div class="">
-                    <h3 class="text-4xl font-semibold leading-10 -tracking-[0.01em] mb-2">
-                        Познакомьтесь с нашими проектами
+                    <h3 class="text-4xl font-semibold leading-10 -tracking-[0.01em] mb-4">
+                        Get to know our projects
                     </h3>
                     <p class="text-base leading-5 text-white/50">
-                        Наш стартап состоит из 3 проектов. Все наши проекты публичные. Вы можете легко увидеть, какие
-                        алгоритмы и технологии мы используем.
+                        Our startup consists of 3 projects. All our projects are public. You can easily see what algorithms and technologies we use.
                     </p>
                 </div>
                 <div class="flex flex-col justify-center space-y-4">

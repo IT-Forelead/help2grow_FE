@@ -9,13 +9,13 @@
                 <div class="flex items-center max-w-screen-sm mb-6 space-x-2 md:mb-8">
                     <div class="w-2 h-4 inline-block rounded-[1px] bg-gradient-to-b from-[#4575cd] to-[#7ea7e9]"></div>
                     <p class="text-base font-semibold leading-5 text-white -tracking-wide">
-                        Преимущества
+                        Advantages
                     </p>
                 </div>
                 <h2 class="mb-4 text-xl font-semibold leading-7 tracking-tight md:leading-10 md:text-3xl">
-                    Мы с нуля разработали платформу,
+                    We developed the platform from scratch,
                     <span class="text-white/50">
-                        которая может стать решением проблем, с которыми сталкиваются все молодые программисты.
+                        which could be the solution to the problems that all young programmers face.
                     </span>
                 </h2>
             </div>
@@ -23,28 +23,28 @@
                 <div class="">
                     <div class="text-xl leading-7 -tracking-[0.01em] mb-3">01</div>
                     <h3 class="text-lg md:text-xl font-semibold leading-6 -tracking-[0.01em] mb-2">
-                        Сотрудничество над проектами
+                        Project Collaboration
                     </h3>
                     <p class="text-base leading-5 text-white/50">
-                        Платформа одновременно служит инкубатором для инновационных проектов в области кодирования. «Grow-Together» публикует идеи кодирования с множеством задач, которые необходимо реализовать. И наставники, и подопечные могут сотрудничать в этих реальных проектах, способствуя практическому применению знаний и опыта.
+                        The platform doubles as an incubator for innovative coding projects. "Grow-Together" releases coding ideas with a plethora of tasks to be implemented. Both mentors and mentees can collaborate on these real-world projects, fostering practical application of knowledge and experience.
                     </p>
                 </div>
                 <div class="">
                     <div class="text-xl leading-7 -tracking-[0.01em] mb-3">02</div>
                     <h3 class="text-lg md:text-xl font-semibold leading-6 -tracking-[0.01em] mb-2">
-                        Взаимодействие с сообществом
+                        Community Interaction
                     </h3>
                     <p class="text-base leading-5 text-white/50">
-                        Процветающий форум сообщества позволяет пользователям участвовать в обсуждениях, задавать вопросы и делиться идеями. Этот открытый диалог не только создает поддерживающее сообщество, но и облегчает обмен знаниями, выходящий за рамки наставничества.
+                        A thriving community forum allows users to engage in discussions, ask questions, and share insights. This open dialogue not only builds a supportive community but also facilitates knowledge exchange beyond mentorship.
                     </p>
                 </div>
                 <div class="">
                     <div class="text-xl leading-7 -tracking-[0.01em] mb-3">03</div>
                     <h3 class="text-lg md:text-xl font-semibold leading-6 -tracking-[0.01em] mb-2">
-                        Сотрудничество в проектах
+                        Monetary Incentives
                     </h3>
                     <p class="text-base leading-5 text-white/50">
-                        Платформа одновременно служит инкубатором инновационных проектов в области кодирования. «Grow-Together» публикует идеи кодирования с множеством задач, которые необходимо реализовать. И наставники, и подопечные могут сотрудничать в этих реальных проектах, способствуя практическому применению знаний и опыта.
+                        "Grow-Together" introduces a unique compensation model, where senior mentors receive compensation for their code review and mentoring services. This financial incentive ensures the active participation of experienced developers and encourages knowledge sharing.
                     </p>
                 </div>
             </div>

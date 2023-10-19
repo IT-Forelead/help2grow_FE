@@ -7,7 +7,7 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
     <section class="pt-14 md:pt-28">
         <div class="max-w-6xl px-6 mx-auto relative z-[3]">
             <div class="text-gray-900 font-semibold text-4xl leading-10 -tracking-[0.01em] max-w-3xl mb-6 md:mb-12">
-                Ключевая особенность
+                Key Features
             </div>
             <div class="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3">
                 <div
@@ -16,10 +16,10 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
                         <CodeIcon class="w-8 h-8 text-blue-600" />
                     </div>
                     <div class="text-base font-medium leading-5 text-gray-700 -tracking-[0.01em] mb-2">
-                        Сопоставление наставников и подопечных
+                        Mentor-Mentee Matching
                     </div>
                     <p class="text-sm leading-5 text-gray-600">
-                        «Grow-Together» использует передовые алгоритмы искусственного интеллекта для подбора начинающих младших разработчиков с опытными старшими наставниками. В процессе сопоставления учитываются стеки программирования, уровни навыков и индивидуальные цели обучения для создания значимых связей между наставником и учеником.
+                        "Grow-Together" utilizes cutting-edge AI algorithms to match aspiring junior developers with experienced senior mentors. The matching process takes into account programming stacks, skill levels, and individual learning goals to create meaningful mentor-mentee connections.
                     </p>
                 </div>
                 <div
@@ -28,10 +28,10 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
                         <CodeIcon class="w-8 h-8 text-blue-600" />
                     </div>
                     <div class="text-base font-medium leading-5 text-gray-700 -tracking-[0.01em] mb-2">
-                        Проверка кода и обратная связь
+                        Code Review and Feedback
                     </div>
                     <p class="text-sm leading-5 text-gray-600">
-                        Старшие разработчики могут использовать платформу для предоставления углубленных проверок кода и конструктивной обратной связи младшим разработчикам. Этот цикл обратной связи помогает юниорам улучшить свои навыки программирования и добиться осознанного прогресса.
+                        Senior developers can leverage the platform to provide in-depth code reviews and constructive feedback to junior developers. This feedback loop is instrumental in helping juniors improve their coding skills and make informed progress.
                     </p>
                 </div>
                 <div
@@ -40,10 +40,10 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
                         <CodeIcon class="w-8 h-8 text-blue-600" />
                     </div>
                     <div class="text-base font-medium leading-5 text-gray-700 -tracking-[0.01em] mb-2">
-                        Развитие навыков
+                        Skill Development
                     </div>
                     <p class="text-sm leading-5 text-gray-600">
-                        Младшие разработчики могут участвовать в индивидуальных или групповых занятиях по наставничеству, охватывающих самые разные темы: от лучших практик кодирования до руководства проектом. Такой подход к практическому обучению позволяет юниорам ускорить развитие своих навыков под руководством отраслевых экспертов.
+                        Junior developers can engage in one-on-one or group mentoring sessions, covering topics ranging from coding best practices to project guidance. This hands-on learning approach allows juniors to accelerate their skill development under the guidance of industry experts.
                     </p>
                 </div>
                 <div
@@ -52,10 +52,10 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
                         <CodeIcon class="w-8 h-8 text-blue-600" />
                     </div>
                     <div class="text-base font-medium leading-5 text-gray-700 -tracking-[0.01em] mb-2">
-                        Учебные ресурсы
+                        Learning Resources
                     </div>
                     <p class="text-sm leading-5 text-gray-600">
-                        Платформа предлагает множество учебных ресурсов, включая учебные пособия, задачи по программированию и справочные материалы, которые дополняют процесс обучения юниоров.
+                        The platform offers a wealth of learning resources, including tutorials, coding challenges, and reference materials, to supplement the learning journey for juniors.
                     </p>
                 </div>
                 <div
@@ -64,10 +64,10 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
                         <CodeIcon class="w-8 h-8 text-blue-600" />
                     </div>
                     <div class="text-base font-medium leading-5 text-gray-700 -tracking-[0.01em] mb-2">
-                        Значки навыков
+                        Skill Badges
                     </div>
                     <p class="text-sm leading-5 text-gray-600">
-                        По мере того, как юниоры достигают определенных этапов, они могут зарабатывать значки навыков, которые служат свидетельством их растущего мастерства в выбранных ими стеках программирования.
+                        As juniors achieve specific milestones, they can earn skill badges that serve as a testament to their growing proficiency in their chosen programming stacks. This gamification element adds an extra layer of motivation to the learning process.
                     </p>
                 </div>
                 <div
@@ -76,10 +76,10 @@ import CodeIcon from '../../assets/icons/CodeIcon.vue'
                         <CodeIcon class="w-8 h-8 text-blue-600" />
                     </div>
                     <div class="text-base font-medium leading-5 text-gray-700 -tracking-[0.01em] mb-2">
-                        Конфиденциальность данных
+                        Data Privacy
                     </div>
                     <p class="text-sm leading-5 text-gray-600">
-                        «Grow-Together» серьезно относится к конфиденциальности и безопасности данных, применяя надежные меры для защиты пользовательской информации и обеспечения безопасной и конфиденциальной среды обучения.
+                        "Grow-Together" takes data privacy and security seriously, employing robust measures to protect user information and ensure a safe and confidential learning environment.
                     </p>
                 </div>
             </div>

@@ -13,15 +13,13 @@ import GithubIcon from '../../assets/icons/GithubIcon.vue'
                 </p>
             </div>
             <h1 class="mb-4 text-3xl font-semibold tracking-tight md:text-5xl">
-                <span class="text-blue-600">Help to grow</span>
-                <span class="text-2xl text-black md:text-4xl">- это новаторская платформа, призванная способствовать обмену знаниями и
-                    наставничеству в сообществе программистов.</span>
+                <span class="mr-1 text-blue-600">Help to grow</span>
+                <span class="text-2xl text-black md:text-4xl">
+                    is an innovative platform designed to promote knowledge sharing and mentorship within the coding community.
+                </span>
             </h1>
             <p size="500" class="text-xl md:text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
-                Это динамичная экосистема, где младшие разработчики могут учиться у опытных профессионалов, а старшие могут
-                предлагать обзоры кода и получать вознаграждение. Наша платформа также включает в себя передовые алгоритмы
-                сопоставления ИИ для объединения наставников (старших разработчиков) с подопечными на основе их
-                предпочтительных стеков программирования.
+                It's a dynamic ecosystem where junior developers can learn from seasoned professionals, and seniors can offer code reviews and earn compensation. Our platform also incorporates advanced AI matching algorithms to pair mentors (senior developers) with mentees based on their preferred programming stacks.
             </p>
             <!-- <div class="flex flex-col gap-3 mt-4 md:flex-row">
                 <a href=""

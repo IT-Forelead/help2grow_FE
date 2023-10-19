@@ -11,14 +11,14 @@ import RectangleSvg from '../../assets/icons/RectangleSvg.vue'
                     <div class="flex items-center max-w-screen-sm mb-6 space-x-2">
                         <div class="w-2 h-4 inline-block rounded-[1px] bg-gradient-to-b from-[#4575cd] to-[#7ea7e9]"></div>
                         <p class="text-base font-semibold leading-5 text-gray-800 -tracking-wide">
-                            Растем вместе
+                            Growing together
                         </p>
                     </div>
-                    <h2 class="text-gray-900 text-3xl md:text-5xl leading-10 md:leading-[4.5rem] tracking-tight font-semibold mb-4">
-                        Это больше, чем просто платформа наставничества
+                    <h2 class="text-gray-900 text-3xl md:text-4xl leading-10 md:leading-[4.5rem] tracking-tight font-semibold mb-4">
+                        It's more than just a mentoring platform
                     </h2>
                     <p class="text-lg md:text-2xl text-gray-600 leading-8 -tracking-[0.01em]">
-                        Это динамичная экосистема, в которой взращивается будущее кодирования и воплощаются в жизнь инновационные проекты. Независимо от того, являетесь ли вы младшим разработчиком, которому нужен совет, или старшим разработчиком, желающим поделиться своим опытом и заработать на нем, «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
+                        It's a vibrant ecosystem where the future of coding is nurtured, and innovative projects come to life. Whether you're a junior developer seeking guidance or a senior developer eager to share your expertise and earn from it, "Grow-Together" is your pathway to growth, collaboration, and success in the coding world. Join our community and invest in your future today!
                     </p>
                     <!-- <div class="grid grid-cols-2 gap-4 mt-8">
                         <div>

@@ -23,36 +23,36 @@ import TelegramIcon from '../assets/icons/TelegramIcon.vue'
                         <span class="text-[1.8rem]">w</span>
                     </div>
                     <p class="w-full text-base text-gray-600 md:w-2/3">
-                        «Grow-Together» — это ваш путь к росту, сотрудничеству и успеху в мире программирования.
+                        Grow-Together is your path to growth, collaboration and success in the world of programming.
                     </p>
                 </div>
                 <div class="col-span-2 px-6 md:col-span-1">
                     <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-5">
-                        Категории
+                        Categories
                     </h5>
                     <ul class="space-y-2">
                         <li class="text-base text-gray-600">
                             <a href="/mentor-matching"
                                 class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
-                                Подбор наставников
+                                Mentor matching
+                            </a>
+                        </li>
+                        <li class="text-base text-gray-600">
+                            <a href="/tasks" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
+                                Categorization of tasks
                             </a>
                         </li>
                         <li class="text-base text-gray-600">
                             <a href="/task-assignment"
                                 class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
-                                Назначение задачи
+                                Task assignment
                             </a>
                         </li>
-                        <!-- <li class="text-base text-gray-600">
-                            <a href="#" class="inline-block text-gray-900 duration-200 cursor-pointer hover:text-blue-600">
-                                Link 3
-                            </a>
-                        </li> -->
                     </ul>
                 </div>
                 <div class="col-span-2 px-6 md:col-span-1">
                     <h5 class="mb-4 text-lg font-medium leading-5 text-gray-600 md:mb-5">
-                        Контакты
+                        Contact us
                     </h5>
                     <ul class="space-y-2">
                         <li class="flex items-center space-x-2">
