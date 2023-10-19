@@ -23,24 +23,23 @@ import GithubIcon from '../../assets/icons/GithubIcon.vue'
                 сопоставления ИИ для объединения наставников (старших разработчиков) с подопечными на основе их
                 предпочтительных стеков программирования.
             </p>
-            <div class="flex flex-col gap-3 mt-4 md:flex-row">
+            <!-- <div class="flex flex-col gap-3 mt-4 md:flex-row">
                 <a href=""
-                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 sh bg-blue-950 btn-shadow h-9 whitespace-nowrap">
+                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 btn-shadow-effect bg-blue-950 btn-shadow h-9 whitespace-nowrap">
                     <GithubIcon class="w-6 h-6 mr-1" />
                     Repository for Frontend
                 </a>
                 <a href=""
-                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 sh bg-blue-950 btn-shadow h-9 whitespace-nowrap">
+                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 btn-shadow-effect bg-blue-950 btn-shadow h-9 whitespace-nowrap">
                     <GithubIcon class="w-6 h-6 mr-1" />
                     Repository for Backend
                 </a>
                 <a href=""
-                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 sh bg-blue-950 btn-shadow h-9 whitespace-nowrap">
+                    class="inline-flex items-center justify-center px-4 space-x-1 text-sm font-medium text-white rounded-lg outline-none cursor-pointer hover:bg-blue-900 btn-shadow-effect bg-blue-950 btn-shadow h-9 whitespace-nowrap">
                     <GithubIcon class="w-6 h-6 mr-1" />
                     Repository for AI
                 </a>
-
-            </div>
+            </div> -->
         </div>
         <div class="flex justify-center">
             <div class="relative z-10 overflow-hidden w-[342px] h-[184px] md:w-[960px] md:h-[540px] rounded-lg">
@@ -64,22 +63,7 @@ import GithubIcon from '../../assets/icons/GithubIcon.vue'
     background-image: linear-gradient(90deg, rgba(126, 167, 233, 1), rgba(124, 239, 183), 1);
 }
 
-/* .btn-shadow {
-    box-shadow: 0 0 0 1px rgba(17, 26, 74, 1), 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 0.2s ease 0s, background-color 0.2s ease 0s, border-color 0.2s ease 0s;
-} */
-/* .btn-effect::after {
-    content: "";
-    background-image: var(--btn-gradient,linear-gradient(180deg,rgb(255,255,255),rgba(255,255,255,0) 100%));
-    display: block;
-    border-radius: 0.5rem;
-    opacity: 0.1;
-    position: absolute;
-    inset: 0px;
-    transition: opacity 0.5s ease 0s;
-} */
-
-.sh {
+.btn-shadow-effect {
   box-shadow: 0 4px 4px rgba(8, 8, 8, .08), 0 1px 2px rgba(8, 8, 8, .2), inset 0 6px 12px rgba(255, 255, 255, .12), inset 0 1px 1px rgba(255, 255, 255, .2);
 }
 </style>

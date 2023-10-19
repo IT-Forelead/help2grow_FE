@@ -11,15 +11,15 @@ import CaretRightIcon from '../../assets/icons/CaretRightIcon.vue'
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
                 <div class="">
                     <h3 class="text-4xl font-semibold leading-10 -tracking-[0.01em] mb-2">
-                        Start building today
+                        Познакомьтесь с нашими проектами
                     </h3>
                     <p class="text-base leading-5 text-white/50">
-                        Unmatched access to money movement, bank accounts, card networks, and bank capital. You're in the
-                        driver's seat to build your own products, on your terms, without layers in between.
+                        Наш стартап состоит из 3 проектов. Все наши проекты публичные. Вы можете легко увидеть, какие
+                        алгоритмы и технологии мы используем.
                     </p>
                 </div>
                 <div class="flex flex-col justify-center space-y-4">
-                    <div
+                    <a href="https://github.com/IT-Forelead/help2grow_FE" target="_blank"
                         class="flex items-center justify-between z-[7] px-6 py-4 rounded-lg shadow-sm cursor-pointer bg-white/5 hover:bg-white/10">
                         <div class="flex items-center space-x-2">
                             <GithubIcon class="w-8 h-8" />
@@ -31,8 +31,8 @@ import CaretRightIcon from '../../assets/icons/CaretRightIcon.vue'
                             </div>
                         </div>
                         <CaretRightIcon class="w-6 h-6" />
-                    </div>
-                    <div
+                    </a>
+                    <a href="https://github.com/IT-Forelead/help2grow_BE" target="_blank"
                         class="flex items-center justify-between z-[7] px-6 py-4 rounded-lg shadow-sm cursor-pointer bg-white/5 hover:bg-white/10">
                         <div class="flex items-center space-x-2">
                             <GithubIcon class="w-8 h-8" />
@@ -42,8 +42,8 @@ import CaretRightIcon from '../../assets/icons/CaretRightIcon.vue'
                             </div>
                         </div>
                         <CaretRightIcon class="w-6 h-6" />
-                    </div>
-                    <div
+                    </a>
+                    <a href="https://github.com/IT-Forelead/help2grow_AI" target="_blank"
                         class="flex items-center justify-between z-[7] px-6 py-4 rounded-lg shadow-sm cursor-pointer bg-white/5 hover:bg-white/10">
                         <div class="flex items-center space-x-2">
                             <GithubIcon class="w-8 h-8" />
@@ -53,7 +53,7 @@ import CaretRightIcon from '../../assets/icons/CaretRightIcon.vue'
                             </div>
                         </div>
                         <CaretRightIcon class="w-6 h-6" />
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -86,4 +86,5 @@ import CaretRightIcon from '../../assets/icons/CaretRightIcon.vue'
     left: 50%;
     margin-left: -50%;
     bottom: -50%;
-}</style>
+}
+</style>
