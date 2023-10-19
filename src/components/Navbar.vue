@@ -26,36 +26,24 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
             </a>
             <div>
                 <ul class="flex items-center justify-center space-x-1">
-                    <!-- <li>
-                        <a href="/"
-                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Главная
-                        </a>
-                    </li> -->
                     <li>
-                        <a href="/mentor-matching"
+                        <router-link to="/mentor-matching"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
                             Подбор наставников
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="/tasks"
+                        <router-link to="/tasks"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
                             Категоризация задач
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="/task-assignment"
+                        <router-link to="/task-assignment"
                             class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
                             Назначение задачи
-                        </a>
+                        </router-link>
                     </li>
-                    <!-- <li>
-                        <a href="#"
-                            class="px-4 py-2 text-base font-medium text-gray-900 border border-white border-solid rounded-lg cursor-pointer whitespace-nowrap hover:bg-black/5 hover:border-gray-200">
-                            Link 3
-                        </a>
-                    </li> -->
                 </ul>
             </div>
             <div class="flex items-center justify-end space-x-2">
@@ -77,4 +65,9 @@ import TranslateIcon from '../assets/icons/TranslateIcon.vue'
     </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+.router-link-active {
+    background-color: rgb(0 0 0 / 0.05);
+    border-color: rgb(229 231 235 / 1);
+}
+</style>
