@@ -39,7 +39,7 @@ const customSkill = ref(null)
 
 const addToSkillSelected = () => {
   if (customSkill.value) {
-    customSkills.value.push(customSkill.value)
+    customSkills.value.push(...customSkill.value?.split(','))
     customSkill.value = ''
   }
 }
@@ -73,7 +73,7 @@ const addJuniorForAssignTask = () => {
         class="focus:outline-none text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:focus:ring-green-900">+</button>
     </div>
     <button @click="addJuniorForAssignTask()"
-      class="w-full focus:outline-none text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900">Find task</button>
+      class="w-full focus:outline-none text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-blue-900">Add</button>
   </div>
 </template>
 

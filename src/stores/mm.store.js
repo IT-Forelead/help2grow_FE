@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-export const useMMStore = defineStore("mm", {
+export const useMMStore = defineStore("store", {
   state: () => {
     return {
       junior: null,
@@ -9,6 +9,7 @@ export const useMMStore = defineStore("mm", {
       seniors: [],
       fseniors: [],
       tasks: [],
+      ftasks: [],
       selectedTask: null,
     };
   },
@@ -45,12 +46,21 @@ export const useMMStore = defineStore("mm", {
     },
     clearJunior() {
       this.junior = null;
+    },    
+    clearTaJunior() {
+      this.taJunior = null;
+    },
+    clearftasks() {
+      this.ftasks = [];
     },
     clearfSeniors() {
       this.fseniors = [];
     },
     findSeniors(data) {
       this.fseniors.push(data);
+    },    
+    findTask(data) {
+      this.ftasks.push(data);
     },
   },
   persist: true,
