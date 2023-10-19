@@ -6,7 +6,81 @@ export const useMMStore = defineStore("store", {
       junior: null,
       taJunior: null,
       juniors: [],
-      seniors: [],
+      seniors: [
+        {
+          "name": "Jumaniyozov Suroj",
+          "skills": [
+            "Работа в команде",
+            "HTML",
+            "CSS",
+            "TailwindCss",
+            "JavaScript",
+            "TypeScript",
+            "VueJS"
+          ]
+        },
+        {
+          "name": "Og'abek Shomurotov",
+          "skills": [
+            "Linux",
+            "Docker",
+            "Elasticsearch",
+            "AWS",
+            "Kubernetes",
+            "Git",
+            "Jira"
+          ]
+        },
+        {
+          "name": "Doniyor Khujamov",
+          "skills": [
+            "PostgreSQL",
+            "Jira",
+            "GitHub",
+            "Java",
+            "Kotlin",
+            "Android",
+            "Bootstrap"
+          ]
+        },
+        {
+          "name": "Maftunbek Raxmatov",
+          "skills": [
+            "SCALA",
+            "PostgreSQL",
+            "GraphQL",
+            "Cats",
+            "Cats-effect",
+            "Http4s",
+            "Fs2",
+            "Skunk"
+          ]
+        },
+        {
+          "name": "Bekturdi Yuldashev",
+          "skills": [
+            "SCALA",
+            "REST API",
+            "Git",
+            "PostgreSQL",
+            " Cassandra",
+            " Play Framework",
+            " Doobie"
+          ]
+        },
+        {
+          "name": "Behruz Boltayev",
+          "skills": [
+            "GraphQL",
+            "DevOps",
+            "PostgreSQL",
+            "Docker",
+            "AWS",
+            "SCALA",
+            "Linux"
+          ]
+        }
+      ],
       fseniors: [],
       tasks: [],
       ftasks: [],

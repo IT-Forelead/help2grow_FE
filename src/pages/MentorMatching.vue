@@ -103,13 +103,13 @@ const clear = () => {
           <a href="#" class="hover:underline">@{{ s?.name }}</a>
         </p>
         <p class="mb-4 text-sm">Developer's skills</p>
-        <div class="flex text-sm">
+        <div class="flex flex-wrap gap-2 text-sm">
           <div v-for="(skill, idx) in s?.skills" class="capitalize">
             <span v-if="idx % 2 === 0"
-              class="bg-blue-100 text-blue-800 text-base font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              class="bg-blue-100 text-blue-800 text-base font-medium px-2.5 py-0.5 rounded-full">
               {{ skill }}
             </span>
-            <span v-else class="bg-red-100 text-red-800 text-base font-medium mr-2 px-2.5 py-0.5 rounded-full">
+            <span v-else class="bg-red-100 text-red-800 text-base font-medium px-2.5 py-0.5 rounded-full">
               {{ skill }}
             </span>
           </div>
@@ -150,10 +150,10 @@ const clear = () => {
         <div class="flex flex-wrap text-sm">
           <div v-for="(skill, idx) in s?.skills" class="capitalize">
             <span v-if="idx % 2 === 0"
-              class="bg-blue-100 text-blue-800 text-base font-medium mr-2 px-2.5 py-0.5 rounded-full whitespace-nowrap">
+              class="bg-blue-100 text-blue-800 text-base font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap">
               {{ skill }}
             </span>
-            <span v-else class="bg-red-100 text-red-800 text-base font-medium mr-2 px-2.5 py-0.5 rounded-full">
+            <span v-else class="bg-red-100 text-red-800 text-base font-medium px-2.5 py-0.5 rounded-full">
               {{ skill }}
             </span>
           </div>
