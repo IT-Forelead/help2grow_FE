@@ -15,6 +15,7 @@ const submitForm = reactive({
 
 </script>
 
+
 <template>
     <main class="flex items-center h-screen overflow-hidden bg-white">
         <div class="flex flex-col w-full max-w-2xl px-4 mx-auto sm:px-6">
