@@ -1,7 +1,13 @@
 <script setup>
 import { reactive, ref } from 'vue'
+import { useRouter } from 'vue-router'
 import SpinnersRingResizeIcon from '../assets/icons/SpinnersRingResizeIcon.vue'
+import AuthService from '../services/auth.service'
+import { Toaster, toast } from 'vue-sonner'
 
+const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/
+
+const router = useRouter()
 const isLoading = ref(false)
 
 const submitForm = reactive({
@@ -14,9 +20,45 @@ const clearForm = () => {
     submitForm.password = ''
 }
 
+const signIn = () => {
+    localStorage.removeItem('session')
+    if (!submitForm.email) {
+        toast.error('Please enter your email!')
+    } else if (!emailRegex.test(submitForm.email)) {
+        toast.error('Please, enter right email address!')
+    } else if (!submitForm.password) {
+        toast.error('Please enter your password!')
+    } else {
+        isLoading.value = true
+        AuthService.login({
+            email: submitForm.email,
+            password: submitForm.password,
+        }).then((res) => {
+            if (res) {
+                useAuthStore().setToken(res?.accessToken)
+                useAuthStore().setUser(decodeJwt(res?.accessToken))
+                isLoading.value = false
+                clearForm()
+                if (localStorage.getItem('session')) {
+                    setTimeout(() => {
+                        router.push('/')
+                    }, 200)
+                }
+            }
+        })
+            .catch((err) => {
+                toast.error('Please enter your email!')
+                setTimeout(() => {
+                    isLoading.value = false
+                }, 3000)
+            })
+    }
+}
+
 </script>
 
 <template>
+    <Toaster richColors closeButton />
     <main class="flex items-center h-screen overflow-hidden bg-white">
         <div class="flex flex-col w-full max-w-2xl px-4 mx-auto sm:px-6">
             <router-link to="/">

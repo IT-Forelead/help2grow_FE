@@ -3,7 +3,7 @@ class AuthService {
   async login(user) {
     await PublicAxiosService
       .post('/auth/user/login', {
-        phone: user.phone.replace(/([() -])/g, ''),
+        email: user.email,
         password: user.password,
       })
       .then((res) => {
